@@ -11,7 +11,7 @@ class Book
     // The fields.
     private String author;
     private String title;
-
+    
     /**
      * Set the author and title fields when this object
      * is constructed.
@@ -23,4 +23,11 @@ class Book
     }
 
     // Add the methods here ...
+    public String printAuthor(){
+        return author;
+    }
+    public String printTitle(){
+        return title;
+    }
+    
 }
