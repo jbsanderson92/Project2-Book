@@ -33,5 +33,9 @@ class Book
         return title;
     }
     
+    public void printDetails()
+    {
+        System.out.println(" Author: " + author + " Title: " + title + " Pages: " + pages);
+    }
     
 }
